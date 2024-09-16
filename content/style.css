@@ -1,0 +1,155 @@
+body {
+    background-color: #181818;
+    color: #D3D3D3;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    padding: 20px;
+    background-color: #181818;
+    z-index: 1;
+    text-align: right;
+}
+
+.nav-list li {
+    margin-left: 20px;
+}
+
+.nav-list a {
+    text-decoration: none; 
+    color: #D3D3D3; 
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-list a:hover {
+    color: black;
+    background-color: burlywood;
+}
+
+main {
+    flex: 1;
+    padding: 60px 20px 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    top: 10px; 
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.company {
+    line-height: 0.25;
+    padding-top: 20px;
+}
+
+.company p:nth-child(1) {
+    color: 	burlywood;
+}
+
+
+.University {
+    line-height: 0.25;
+    padding-top: 10px;
+}
+
+.OSU p:nth-child(1) {
+    color: burlywood
+}
+
+.OSU p:nth-child(2) {
+    font-style: italic;
+}
+
+.UTRGV{
+    padding-top: 20px
+}
+
+.UTRGV p:nth-child(1){
+    color: burlywood
+}
+
+.UTRGV p:nth-child(2){
+    font-style: italic;
+}
+
+
+.work {
+    margin-top: 80px;
+    max-width: 800px;
+}
+
+.education {
+    margin-top: 50px;
+    max-width: 800px;
+}
+
+.nav-list2 ul {
+    list-style-type: none; 
+    padding-left: 0; 
+    margin-left: 0;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+.nav-list2 li {
+    margin-bottom: 10px; 
+}
+
+.nav-list2 a {
+    text-decoration: none; 
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.second-link {
+    padding-top: 20px;
+}
+
+h2 {
+    margin: 0;
+    top: 10px; 
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.flex-container2 h2 {
+    padding-left: 20px;
+}
+
+a:link {
+    color: burlywood; 
+  }
+  
+a:visited {
+    color: burlywood; 
+  }
